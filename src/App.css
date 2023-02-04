@@ -1,0 +1,44 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.form, .preview {
+  width: 49%;
+  padding: 1rem;
+  box-sizing: border-box;
+}
+
+input[type="text"], input[type="color"] {
+  width: 100%;
+  padding: 0.5rem;
+  box-sizing: border-box;
+  margin-bottom: 1rem;
+}
+
+button {
+  width: 100%;
+  padding: 0.5rem;
+  box-sizing: border-box;
+  margin-top: 1rem;
+}
+.preview {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header {
+  text-align: center;
+}
+
+.body {
+  text-align: center;
+  margin: 20px;
+}
+
+.footer {
+  text-align: center;
+  margin-top: auto;
+}
+
